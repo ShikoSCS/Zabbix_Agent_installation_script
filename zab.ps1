@@ -14,9 +14,9 @@ $installParams = @{
         "/qn"
         "LOGTYPE=file"
         "LOGFILE=`"C:\Program Files\Zabbix Agent\zabbix_agentd.log`""
-        "SERVER=192.168.10.210,192.168.10.126"
+        "SERVER= SERVER IP"
         "LISTENPORT=10050"
-        "SERVERACTIVE=192.168.10.210,192.168.10.126"
+        "SERVERACTIVE=SERVER IP"
         "HOSTNAME=Windows-Host"
     )
     Wait         = $true
